@@ -64,7 +64,7 @@ scrabble.score # => 41
 ```
 INPUT       |    OUTPUT
 ======================
-given scrabble = Scrabble.new('a')  -> returns 1
+(done) given scrabble = Scrabble.new('a')  -> returns 1
 
 given scrabble = Scrabble.new('D') -> returns 2
 

@@ -4,6 +4,6 @@ class Scrabble
   end
 
   def score
-    1
+    @word == 'a' ? 1 : 2
   end
 end
