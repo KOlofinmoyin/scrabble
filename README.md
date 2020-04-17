@@ -72,9 +72,9 @@ INPUT       |    OUTPUT
 
 (done) given scrabble = Scrabble.new('W') -> returns  4
 
-given scrabble = Scrabble.new('K') -> returns 5
+(done) given scrabble = Scrabble.new('K') -> returns 5
 
-given scrabble = Scrabble.new('X') -> returns 8
+(done) given scrabble = Scrabble.new('X') -> returns 8
 
 given scrabble = Scrabble.new('Q') -> returns 10
 

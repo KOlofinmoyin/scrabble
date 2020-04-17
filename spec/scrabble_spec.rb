@@ -30,4 +30,16 @@ describe Scrabble do
     scrabble = Scrabble.new('K')
     expect(scrabble.score).to eq 5
   end
+
+  # given scrabble = Scrabble.new('X') -> returns 8
+  it "takes 'X' and returns 8" do
+    scrabble = Scrabble.new('X')
+    expect(scrabble.score).to eq 8
+  end
+
+  # given scrabble = Scrabble.new('Q') -> returns 10
+  it "takes 'Q' and returns 10" do
+    scrabble = Scrabble.new('q')
+    expect(scrabble.score).to eq 10
+  end
 end
