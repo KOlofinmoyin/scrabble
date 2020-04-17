@@ -66,11 +66,11 @@ INPUT       |    OUTPUT
 ======================
 (done) given scrabble = Scrabble.new('a')  -> returns 1
 
-given scrabble = Scrabble.new('D') -> returns 2
+(done) given scrabble = Scrabble.new('D') -> returns 2
 
-given scrabble = Scrabble.new('M') -> returns 3
+(done) given scrabble = Scrabble.new('M') -> returns 3
 
-given scrabble = Scrabble.new('W') -> returns  4
+(done) given scrabble = Scrabble.new('W') -> returns  4
 
 given scrabble = Scrabble.new('K') -> returns 5
 

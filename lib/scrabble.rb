@@ -4,6 +4,7 @@ class Scrabble
   end
 
   def score
-    @word == 'a' ? 1 : 2
+    @word.downcase!
+    @word == 'a' ? 1 : @word == 'd' ? 2 : @word == 'm' ? 3 : @word == 'w' ? 4 : 5
   end
 end
