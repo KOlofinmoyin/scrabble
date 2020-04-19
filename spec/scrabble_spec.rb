@@ -55,4 +55,9 @@ describe Scrabble do
     expect(scrabble.score).to eq 22
   end
 
+  # given scrabble = Scrabble.new('OXYPHENBUTAZONE') => returns 41
+  it "takes 'OXYPHENBUTAZONE' and returns 41" do
+    scrabble = Scrabble.new('OXYPHENBUTAZONE')
+    expect(scrabble.score).to eq 41
+  end
 end

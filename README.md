@@ -82,7 +82,7 @@ INPUT       |    OUTPUT
 
 (done) given scrabble = Scrabble.new('quirky') -> returns 22
 
-given scrabble = Scrabble.new('OXYPHENBUTAZONE') => returns 41
+(done) given scrabble = Scrabble.new('OXYPHENBUTAZONE') => returns 41
 
 given scrabble = Scrabble.new('') => returns 0
 
