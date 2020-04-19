@@ -42,4 +42,11 @@ describe Scrabble do
     scrabble = Scrabble.new('q')
     expect(scrabble.score).to eq 10
   end
+
+  # given scrabble = Scrabble.new('street') -> returns 6
+  it "takes 'street' and returns 6" do
+    scrabble = Scrabble.new('street')
+    expect(scrabble.score).to eq 6
+  end
+
 end

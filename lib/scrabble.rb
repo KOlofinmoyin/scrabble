@@ -17,7 +17,7 @@ class Scrabble
         'j': 8,'x':8,
         'q':10,'z':10
       }
-      @score = letters[letter.to_sym]
+      @score += letters[letter.to_sym]
     }
     @score
   end
