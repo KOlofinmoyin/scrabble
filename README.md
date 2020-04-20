@@ -1,6 +1,8 @@
 # SCRABBLE
 ========
 
+![scrabble_exercise_readme_splash](https://user-images.githubusercontent.com/33905131/79767484-4e5b7f00-8321-11ea-9c1e-7bf64822c387.gif)
+
 
 ### Requirements
 Given a word, compute the scrabble score for that word.
