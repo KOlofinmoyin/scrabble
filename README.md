@@ -88,5 +88,5 @@ INPUT       |    OUTPUT
 
 (done) given scrabble = Scrabble.new(" \t\n") => returns 0
 
-given scrabble = Scrabble.new(nil) => returns 0
+(done) given scrabble = Scrabble.new(nil) => returns 0
 ```
